@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="WorldDescription" format=3]
+
+[ext_resource type="Script" path="res://addons/world_packer/world_description.gd" id="1_n0dx1"]
+
+[resource]
+script = ExtResource("1_n0dx1")
+title = "Poznan Glowny"
+projection = "PL92"
+epsg = 2180
+origin = Vector2(357376, 504832)
+center = Vector2(52.4002759532013, 16.9180178572464)
+player_start = Vector3(-288.351168219291, 77.5724001095009, 175.176302750595)
+assets = PackedStringArray("common_terrain", "common_facades", "common_biomes")
